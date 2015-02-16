@@ -1,0 +1,66 @@
+h1 { font-family: verdana; font-weight: heavy; line-height:1.5em }
+body { font-family: arial; line-height: 1.5rem; color: rgb(65,65,65) }
+
+abbr, acronym { border-bottom: .1em dotted; cursor: help; }
+section.cp { background-image: url('/img/sunset.jpg'); padding: 1rem 0.5rem; 
+background-repeat:no-repeat;
+background-size: 100%;
+min-height: 180px;
+max-width:600px;
+border-bottom: 1px solid #eee;
+}
+h1 {
+ background-color: black;
+  color: #fff; 
+  display: inline;
+  padding: 0.5rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+p,li,h1,h2,h3{
+    max-width:600px;
+    word-wrap:break-word;
+}
+
+
+ul#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	margin-bottom: 0.5em;
+}
+ul#nav li
+{
+margin-right: 0.5em; 
+float: left;
+}
+ul#nav:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+	clear: both;
+*zoom: 1
+}
+
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+	clear: both;
+*zoom: 1
+}
+
+.items li {
+	float: left;
+	display: block;
+width: 160px;
+height: 90px;
+background: #efefef;
+margin-bottom: 0.5rem;
+margin-right: 0.5rem;
+box-shadow: 5px 5px 2px #888888;
+padding: 0.5rem;
+}
+
+.items li:hover {
+background: #aaa;
+}
