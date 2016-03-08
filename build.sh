@@ -1,5 +1,5 @@
 #!/bin/bash
 
 npm install
-npm intall -g gulp
+npm install -g gulp
 gulp
