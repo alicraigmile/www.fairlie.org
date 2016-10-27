@@ -1,5 +1,4 @@
 # www.fairlie.org
 
-To publish:
-
-rsync -av --exclude=.git . root@dingo:/workspace/fairlie.org/
+To run the continuous integration checks: ./ci.sh
+To deploy: ./deploy.sh [int|test|live]
