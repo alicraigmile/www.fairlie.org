@@ -29,7 +29,7 @@ node('node') {
 
 						print "Deploy not implemented"
 
-				stage 'Cleanup"
+				stage 'Cleanup'
 
 						echo 'prune and cleanup'
 						sh 'npm prune'
