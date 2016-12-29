@@ -1,0 +1,32 @@
+{
+  "name": "www.fairlie.org",
+  "version": "2.0.0",
+  "description": "fairlie.org website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/fairlie-dot-org",
+		"build": "mkdir build || git archive --format=zip HEAD > build/www.fairlie.org-$npm_package_version.zip",
+    "test": "mocha test/",
+		"preversion": "npm test",
+		"postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicraigmile/www.fairlie.org.git"
+  },
+  "author": "Ali Craigmile <ali@craigmile.com> (http://ali.craigmile.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicraigmile/www.fairlie.org/issues"
+  },
+  "homepage": "https://github.com/alicraigmile/www.fairlie.org#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0",
+    "supertest": "^2.0.1"
+  }
+}
