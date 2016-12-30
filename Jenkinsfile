@@ -7,11 +7,13 @@ node {
 		try {
 
 
-				stage 'Checkout'
+				stage 'Checkout' {
 
 						checkout scm
 
-				stage 'Test'
+				}
+
+				stage 'Test' {
 
 						env.NODE_ENV = "test"
 						print "Environment will be : ${env.NODE_ENV}"
@@ -21,15 +23,22 @@ node {
 						sh "npm install"
 						sh "npm test"
 
-				stage 'Build for AWS Elastic Beanstalk'
+				}
+
+				stage 'Build for AWS Elastic Beanstalk' {
 
 						sh "npm run build"
 				
-				stage 'Deploy'
+				}
 
+				stage 'Deploy' {
+
+						sh "ls *.zip"
 						print "Deploy not implemented"
 
-				stage 'Cleanup'
+				}
+
+				stage 'Cleanup' {
 
 						echo 'prune and cleanup'
 						sh 'npm prune'
@@ -41,6 +50,7 @@ node {
 								replyTo: 'jenkins@xgusties.com',
 								subject: 'www.fairlie.org build successful',
 								to: 'ali@craigmile.com'
+				}
 		}
 
 		catch (err) {
