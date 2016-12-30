@@ -7,13 +7,13 @@ node {
 		try {
 
 
-				stage 'Checkout' {
+				stage('Checkout') {
 
 						checkout scm
 
 				}
 
-				stage 'Test' {
+				stage('Test') {
 
 						env.NODE_ENV = "test"
 						print "Environment will be : ${env.NODE_ENV}"
@@ -25,20 +25,21 @@ node {
 
 				}
 
-				stage 'Build for AWS Elastic Beanstalk' {
+				stage('Build for Elastic Beanstalk') {
 
 						sh "npm run build"
+						archiveArtifacts artifacts: '*.zip', fingerprint: true
 				
 				}
 
-				stage 'Deploy' {
+				stage('Deploy') {
 
 						sh "ls *.zip"
 						print "Deploy not implemented"
 
 				}
 
-				stage 'Cleanup' {
+				stage('Cleanup') {
 
 						echo 'prune and cleanup'
 						sh 'npm prune'
