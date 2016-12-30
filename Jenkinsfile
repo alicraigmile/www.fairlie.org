@@ -58,7 +58,7 @@ node {
 
 				currentBuild.result = "FAILURE"
 
-        mail body: 'www.fairlie.org build error is here: ${env/BUILD_URL}',
+        mail body: 'www.fairlie.org build error is here: ${env.BUILD_URL}',
             from: 'jenkins@xgusties.com',
             replyTo: 'jenkins@xgusties.com',
             subject: 'www.fairlie.org build failed',
