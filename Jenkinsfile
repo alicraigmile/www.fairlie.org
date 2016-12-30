@@ -28,13 +28,13 @@ node {
 				stage('Build for Elastic Beanstalk') {
 
 						sh "npm run build"
-						archiveArtifacts artifacts: '*.zip', fingerprint: true
+						archiveArtifacts artifacts: 'build/*.zip', fingerprint: true
 				
 				}
 
 				stage('Deploy') {
 
-						sh "ls *.zip"
+						sh "ls build/*.zip"
 						print "Deploy not implemented"
 
 				}
@@ -44,7 +44,7 @@ node {
 						echo 'prune and cleanup'
 						sh 'npm prune'
 						sh 'rm node_modules -rf'
-						sh '*.zip'
+						sh 'rm build -rf'
 
 						mail body: 'www.fairlie.org build successful',
 								from: 'jenkins@xgusties.com',

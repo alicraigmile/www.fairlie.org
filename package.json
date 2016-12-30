@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/fairlie-dot-org",
-    "build": "mkdir build || git archive --format=zip HEAD > build/www.fairlie.org-$npm_package_version.zip",
+    "build": "mkdir -p build && git archive --format=zip HEAD > build/www.fairlie.org-$npm_package_version.zip",
     "test": "mocha test/",
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
