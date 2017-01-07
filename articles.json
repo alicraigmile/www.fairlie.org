@@ -1,0 +1,39 @@
+{
+    "articles": [
+        {
+            "title": "Village History",
+						"source": "Fairlie Parish Church",
+						"link": "http://www.fairlieparish.co.uk/13VILLAGEHISTORY/13villagehistory.htm",
+            "historical": "yes"
+        },
+        {
+            "title": "Fairlie's Men of the Great War",
+            "link": "http://www.fairliesmenofthegreatwar.co.uk/",
+            "historical": "yes"
+        },
+        {
+            "title": "The Fifes of Fairlie",
+						"source": "Fairlieburne",
+						"link": "http://www.fairlieburne.co.uk/fairlie.htm#Fifes",
+            "historical": "yes"
+        },
+        {
+						"title": "Cunninghame, Ayrshire",
+						"source": "Fairlieburne",
+						"link": "http://www.fairlieburne.co.uk/fairlie.htm#Cunninhgame",
+            "historical": "yes"
+        },
+        {
+            "title": "The village of Fairlie, Ayrshire",
+						"source": "Fairlieburne",
+            "link": "http://www.fairlieburne.co.uk/fairlie.htm#fairlievillage",
+            "historical": "yes"
+        },
+        {
+            "title": "William Fife - Boatbuilder",
+						"source": "Wikipedia",
+						"link": "http://en.wikipedia.org/wiki/William_Fife",
+            "historical": "yes"
+        }
+	]
+}
