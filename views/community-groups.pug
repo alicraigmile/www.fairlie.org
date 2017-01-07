@@ -1,0 +1,74 @@
+html
+    head
+        title Community Groups in Fairlie, North Ayrshire, Scotland | fairlie.org
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="icon" type="image/png" href="/img/yacht-icon.png" sizes="/img/yacht-icon.png")
+        script.
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-47469898-1', 'fairlie.org');
+            ga('send', 'pageview');
+    body
+        ul(id="nav")
+            li
+                a(href="/") Home
+            li
+                a(href="/businesses/") Businesses
+            li Community Groups
+            li
+                a(href="/places-of-interest") Places of Interest
+            li
+                a(href="/moving-here") Moving to Fairlie
+            li
+                a(href="/history" title="History of Fairlie") History
+            li
+                a(href="/map" title="Map of Fairlie") Map
+
+        h1 Community Groups in Fairlie, North Ayrshire
+
+        section(id="community-groups")
+            p For a wee village, there's a lot going on in Fairlie.
+            ol(class="cf items")
+                for group in communityGroups
+                    li
+                        if group.link
+                            a(href=group.link)= group.title
+                        else
+                            =group.title
+                        if group.notes
+                            .notes
+                                = '(' + group.notes + ')'
+            p And if that's not enough for you, check out what there is to do in
+                = ' '
+                a(href="http://www.largsonline.co.uk/index.php") Largs
+                = ' '
+                | which is only 5 minutes away by train, bus or car.
+
+        section#news
+            h2 Community Group News
+            p Most of Fairlie's community groups have dedicated websites, Facebook pages and Twitter accounts where you can find their latest news. Follow the links above for details.
+            p You may also want to get a copy of the
+                = ' '
+                a(href="http://www.largsandmillportnews.com/")
+                    abbr(title="Largs & Millport Weekly News") Wee paper
+                = ' ' 
+                | (published weekly on Wednesdays) for the latest Fairlie news.
+
+        section(id="tell-your-story")
+            h2 Updates
+            p Don't see your community group here? Contact us with details and we can add you to 
+                = ' '
+                em fairlie.org
+                | .
+
+        p &copy; 2016 fairlie.org | 
+            a(href="/contact-us") Contact Us
+            = ' | '
+            a(href="/contact-us") Advertise
+            = ' | '
+            a(href="/sitemap") Sitemap
+
+
