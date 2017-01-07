@@ -46,7 +46,7 @@ node {
 						sh 'rm node_modules -rf'
 						sh 'rm build -rf'
 
-						mail body: 'www.fairlie.org build successful',
+						mail body: 'www.fairlie.org build successful - http://jenkins.xgusties.com/job/www.fairlie.org/lastSuccessfulBuild/artifact/build/',
 								from: 'jenkins@xgusties.com',
 								replyTo: 'jenkins@xgusties.com',
 								subject: 'www.fairlie.org build successful',
