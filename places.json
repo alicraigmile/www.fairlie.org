@@ -30,8 +30,10 @@
         },
         {
             "title": "Fairlie Castle",
+						"notes": "Ruin",
             "link": "http://canmore.rcahms.gov.uk/en/site/41207/details/fairlie+castle/&amp;biblio=more",
-            "interesting": "yes"
+            "interesting": "yes",
+						"historical": "yes"
         },
         {
             "title": "Fairlie Library",
@@ -101,7 +103,7 @@
             "interesting": "yes"
         },
         {
-            "title": "War memorial",
+            "title": "War Memorial",
             "interesting": "yes",
             "historical": "yes"
         },
@@ -112,9 +114,26 @@
             "historical": "yes"
         },
         {
+            "title": "Fairlie Pier",
+						"notes": "Site of",
+            "link": "http://www.organicgrowersfairlie.co.uk/Fairlie_Pier_Station.php",
+            "notes": "Site of",
+            "historical": "yes"
+        },
+        {
             "title": "Fife Boatyard",
             "link": "http://en.wikipedia.org/wiki/William_Fife",
             "notes": "Site of",
+            "historical": "yes"
+        },
+        {
+            "title": "Fairlie Boom Depot",
+            "link": "http://www.secretscotland.org.uk/index.php/Secrets/FairlieBoomDepot",
+            "notes": "Site of",
+            "historical": "yes"
+        },
+        {
+            "title": "Southannan House",
             "historical": "yes"
         },
         {
