@@ -1,0 +1,114 @@
+html
+    head
+        title Places of Interest in Fairlie, North Ayrshire | fairlie.org
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="icon" type="image/png" href="/img/yacht-icon.png" sizes="/img/yacht-icon.png")
+        script.
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-47469898-1', 'fairlie.org');
+            ga('send', 'pageview');
+    body
+        ul(id="nav")
+            li
+                a(href="/") Home
+            li
+                a(href="/businesses/") Businesses
+            li
+                a(href="/community-groups") Community Groups
+            li Places of Interest
+            li
+                a(href="/moving-here") Moving to Fairlie
+            li
+                a(href="/history" title="History of Fairlie") History
+            li
+                a(href="/map" title="Map of Fairlie") Map
+
+        h1 Places of Interest in Fairlie, North Ayrshire
+
+        section#places
+            ol(class="cf items")
+                for place in placesOfInterest
+                    li
+                        if place.link
+                            a(href=place.link)= place.title
+                        else
+                            =place.title
+                        if place.notes
+                            .notes
+                                = '(' + place.notes + ')'
+
+        if historicalPlaces.length
+            section(id="historical-places")
+                h2 Historical
+                ol(class="cf items")
+                    for place in historicalPlaces
+                        li
+                            if place.link
+                                a(href=place.link)= place.title
+                            else
+                                =place.title
+                            if place.notes
+                                .notes
+                                    = '(' + place.notes + ')'
+                p For more information, see our dedicated section on the
+                    = ' '
+                    a(href="/history/") History of Fairlie
+                    | .
+
+
+        if nearbyPlaces.length
+            section#nearby
+                h2 Nearby
+                ol(class="cf items")
+                    for place in nearbyPlaces
+                        li
+                            if place.link
+                                a(href=place.link)= place.title
+                            else
+                                =place.title
+                            if place.notes
+                                .notes
+                                    = '(' + place.notes + ')'
+
+        if islands.length || towns.length
+            h2 Further afield
+
+        if islands.length
+            section#islands
+                h3 The islands
+                ol(class="cf items")
+                    for place in islands
+                        li
+                            if place.link
+                                a(href=place.link)= place.title
+                            else
+                                =place.title
+                            if place.notes
+                                .notes
+                                    = '(' + place.notes + ')'
+
+        if towns.length
+            section#towns
+                h3 Towns and villages
+                ol(class="cf items")
+                    for place in towns
+                        li
+                            if place.link
+                                a(href=place.link)= place.title
+                            else
+                                =place.title
+                            if place.notes
+                                .notes
+                                    = '(' + place.notes + ')'
+
+        p &copy; 2016 fairlie.org | 
+            a(href="/contact-us") Contact Us
+            = ' | '
+            a(href="/contact-us") Advertise
+            = ' | '
+            a(href="/sitemap") Sitemap
+            

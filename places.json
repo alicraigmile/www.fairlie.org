@@ -1,0 +1,194 @@
+{
+    "places": [
+        {
+            "title": "All Weather Sports Pitch",
+            "interesting": "yes"
+        },
+        {
+            "title": "Ayrshire Coastal Path",
+            "link": "http://www.ayrshirecoastalpath.org/",
+            "walk": "yes",
+            "interesting": "yes"
+        },
+        {
+            "title": "Castle (Ladies) Walk",
+            "walk": "yes",
+            "interesting": "yes"
+        },
+        {
+            "title": "Children's Play Parks (3)",
+            "interesting": "yes"
+        },
+        {
+            "title": "Community Garden",
+            "link": "http://www.organicgrowersfairlie.co.uk/How_to_find_us.php",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie Bay (inc. Beach)",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie Castle",
+            "link": "http://canmore.rcahms.gov.uk/en/site/41207/details/fairlie+castle/&amp;biblio=more",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie Library",
+            "link": "http://www.geo.north-ayrshire.gov.uk/CouncilBuildingsPublic/BuildingDetails.aspx?BuildingRef=10000083",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie Glen (Walk, inc. Waterfall)",
+            "link": "http://mtbroutessws.com/WalkFairlieGlenAndKelburn.html",
+            "walk": "yes",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie/Dalry Moor",
+            "link": "http://www.clydemuirshiel.co.uk/park-sites/knockingdon/",
+            "walk": "yes",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie Picnic Site (inc. Car Park)",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie Railway Station",
+            "link": "http://www.nationalrail.co.uk/stations/FRL/details.html",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie Village Hall",
+            "link": "http://www.fairliecommunityassociation.btck.co.uk/Village%20Hall",
+            "notes": "Available for Hire",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fife Memorial (site of Former Boatyard)",
+            "link": "http://en.wikipedia.org/wiki/William_Fife",
+            "interesting": "yes"
+        },
+        {
+            "title": "Hunterston Bird Sanctuary / Lagoon",
+            "link": "http://www.largsandmillportnews.com/news/14260522.How_Hunterston_Bird_Lagoon_exists/",
+            "interesting": "yes"
+        },
+        {
+            "title": "Kaim Hill",
+            "link": "http://www.clydemuirshiel.co.uk/things-to-do/walking/routes/kaim-hill/",
+            "notes": "Walk",
+            "walk": "yes",
+            "interesting": "yes"
+        },
+        {
+            "title": "Kelburn Castle, Country Centre and Estate",
+            "link": "http://www.kelburnestate.com/",
+            "interesting": "yes"
+        },
+        {
+            "title": "Memorial Fountain, Main Road",
+            "interesting": "yes",
+            "historical": "yes"
+        },
+        {
+            "title": "Semple Centre",
+            "interesting": "yes"
+        },
+        {
+            "title": "Tennis Courts (2)",
+            "interesting": "yes"
+        },
+        {
+            "title": "War memorial",
+            "interesting": "yes",
+            "historical": "yes"
+        },
+        {
+            "title": "Fairlie Pier Railway Station",
+            "link": "http://www.organicgrowersfairlie.co.uk/Fairlie_Pier_Station.php",
+            "notes": "Site of",
+            "historical": "yes"
+        },
+        {
+            "title": "Fife Boatyard",
+            "link": "http://en.wikipedia.org/wiki/William_Fife",
+            "notes": "Site of",
+            "historical": "yes"
+        },
+        {
+            "title": "Spigot Mortar Range Green Hill",
+            "link": "http://www.secretscotland.org.uk/index.php/Secrets/SpigotMortarRangeGreenHill",
+            "notes": "Remains",
+            "historical": "yes"
+        },
+        {
+            "title": "Hunterston Coal Terminal",
+            "link": "http://port.hunterston.eu/",
+            "alt-link": "https://en.wikipedia.org/wiki/Hunterston_Terminal",
+            "nearby": "yes"
+        },
+        {
+            "title": "Hunterston A",
+            "link": "http://www.hunterstonasite.co.uk/",
+            "notes": "Decommissioned Power Station",
+            "nearby": "yes"
+        },
+        {
+            "title": "Hunterston B",
+            "link": "http://www.edfenergy.com/energy/power-stations/hunterston-b",
+            "alt-link": "http://www.edfenergy.com/energy/education/visitor-centres",
+            "notes": "Power Station, inc. Visitor Centre",
+            "nearby": "yes"
+        },
+        {
+            "title": "Hunterston Test Centre (onshore) Offshore Wind Farm",
+            "link": "http://sse.com/whatwedo/ourprojectsandassets/renewables/Hunterston/",
+            "nearby": "yes"
+        },
+        {
+            "title": "Largs Golf Club",
+            "link": "http://www.largsgolfclub.co.uk/",
+            "nearby": "yes"
+        },
+        {
+            "title": "Kelburn Wind Farm",
+            "nearby": "yes"
+        },
+        {
+            "title": "Grest Cumbrae",
+            "link": "http://www.millport.org/",
+            "islands": "yes"
+        },        
+        {
+            "title": "The Wee Cumbrae",
+            "link": "http://en.wikipedia.org/wiki/Little_Cumbrae",
+            "islands": "yes"
+        },        
+        {
+            "title": "Bute",
+            "link": "http://www.visitbute.com/",
+            "islands": "yes"
+        },        
+        {
+            "title": "Arran",
+            "link": "http://www.visitarran.com/",
+            "islands": "yes"
+        },        
+        {
+            "title": "Largs",
+            "link": "http://www.largsonline.co.uk/",
+            "towns": "yes"
+        },        
+        {
+            "title": "West Kilbride",
+            "notes": "inc. Seamill",
+            "towns": "yes"
+        },        
+        {
+            "title": "Dalry",
+            "towns": "yes"
+        }
+    ]
+}

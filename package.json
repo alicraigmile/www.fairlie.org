@@ -1,6 +1,6 @@
 {
   "name": "www.fairlie.org",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "fairlie.org website",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,9 @@
   "homepage": "https://github.com/alicraigmile/www.fairlie.org#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "pug": "^0.1.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
