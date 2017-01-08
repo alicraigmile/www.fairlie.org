@@ -1,0 +1,112 @@
+html
+    head
+        title Businesses in Fairie, North Ayrshire | fairlie.org
+        link(rel="stylesheet" href="/css/style.css")
+        link(rel="icon" type="image/png" href="/img/yacht-icon.png" sizes="/img/yacht-icon.png")
+        script.
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-47469898-1', 'fairlie.org');
+            ga('send', 'pageview');
+    body
+        ul(id="nav")
+            li
+                a(href="/") Home
+            li Businesses
+            li
+                a(href="/community-groups") Community Groups
+            li
+                a(href="/places-of-interest") Places of Interest
+            li
+                a(href="/moving-here") Moving to Fairlie
+            li
+                a(href="/history" title="History of Fairlie") History
+            li
+                a(href="/map" title="Map of Fairlie") Map
+
+        h1 Businesses in Fairlie, North Ayrshire
+
+        if allBusinesses
+            section#businesses
+                p Business is thriving in Fairlie.
+                ol(class="cf items")
+                    for business in allBusinesses
+                        li
+                            if business.link
+                                a(href=business.link)= business.title
+                            else
+                                =business.title
+                            if business.notes
+                                .notes
+                                    = '(' + business.notes + ')'
+                p And if that's not enough for you, check out what there is to do in
+                    = ' '
+                    a(href="http://www.largsonline.co.uk/index.php") Largs
+                    = ' '
+                    | which is only 5 minutes away by train, bus or car.
+        else
+            p.error Failed to load Fairlie business data. Try again later. 
+
+        section#nearby
+            h2 Nearby
+            ol
+                li
+                    a(href="http://www.edfenergy.com/energy/power-stations/hunterston-b") EDF Energy
+                    = ' '
+                    | (Hunterston B Power Station)
+                li
+                    a(href="http://fy-charter.co.uk/") Flamingo Yacht Charters Ltd.
+                li
+                    a(href="http://www.magnoxsites.co.uk/site/hunterston-a/") Magnox North
+                    = ' ' 
+                    | (Hunterston A Decommissioned Power Station)
+                li
+                    a(href="http://www.robertryanhomes.co.uk/") Robert Ryan Homes / RDK Construction
+                li
+                    a(href="http://sse.com/whatwedo/ourprojectsandassets/renewables/Hunterston/") SSE
+                    = ' '
+                    | (Hunterston Test Centre (onshore) Offshore Wind Farm)
+
+        section(id="start-a-business")
+            h2 Looking to start a business in Fairlie?
+            p With
+                = ' '
+                a(href="/moving-here") new houses
+                = ' '
+                | on the way, perhaps Fairlie is just the right location to start your business.
+
+            ol(class="cf items")
+                li
+                    a(href="http://www.zoopla.co.uk/for-sale/commercial/property/fairlie/") Commercial Property for Sale near Fairlie
+                    = ' '
+                    | (Zoopla)
+                li
+                    a(href="http://www.north-ayrshire.gov.uk/business/land-and-property/property-land-to-let-for-sale/industrial-units-to-let.aspx") Industrial and workshop units to let near Fairlie
+                    = ' ('
+                    abbr(title="North Ayrshire Council") NAC
+                    | )
+                li
+                    a(href="http://www.north-ayrshire.gov.uk/business/land-and-property/property-land-to-let-for-sale/office-premises-to-let.aspx") Office premises to let near Fairlie
+                    = ' ('
+                    abbr(title="North Ayrshire Council") NAC
+                    | )
+                li
+                    a(href="http://www.north-ayrshire.gov.uk/business/land-and-property/property-land-to-let-for-sale/retail-premises-to-let.aspx") Retail premises to let near Fairlie
+                    = ' ('
+                    abbr(title="North Ayrshire Council") NAC
+                    | )
+                li
+                    a(href="http://www.north-ayrshire.gov.uk/resident/planning-and-building-standards/planning-and-building-standards.aspx") Planning and building standards
+                    = ' ('
+                    abbr(title="North Ayrshire Council") NAC
+                    | )
+
+        p &copy; 2016 fairlie.org | 
+            a(href="/contact-us") Contact Us
+            = ' | '
+            a(href="/contact-us") Advertise
+            = ' | '
+            a(href="/sitemap") Sitemap

@@ -64,3 +64,5 @@ padding: 0.5rem;
 .items li:hover {
 background: #aaa;
 }
+
+.error {color: orange;}
