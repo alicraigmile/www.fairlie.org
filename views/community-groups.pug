@@ -38,6 +38,12 @@ html
                             a(href=group.link)= group.title
                         else
                             =group.title
+                        if group.location
+                            .notes
+                                =group.location
+                        if group.times
+                            .notes
+                                = '(' + group.times + ')'
                         if group.notes
                             .notes
                                 = '(' + group.notes + ')'

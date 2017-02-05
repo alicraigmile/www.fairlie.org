@@ -1,18 +1,53 @@
 {
     "groups": [
         {
-            "title": "Explorer scouts",
-			"link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
+            "title": "Wild Kelburn Forest Tots",
+	    "link": "http://www.kelburnestate.com/activities/wildkelburn",
+            "location": "Kelburn Country Centre",
+            "times": "Mon PM & Wed AM",
             "community": "yes"
         },
         {
+            "title": "Wild Kelburn Junior Rangers",
+	    "link": "http://www.kelburnestate.com/activities/wildkelburn",
+            "location": "Kelburn Country Centre",
+            "times": "Wed PM",
+            "community": "yes"
+        },
+        {
+            "title": "Explorer scouts",
+	    "link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
+            "community": "yes",
+            "hidden": "yes"
+        },
+        {
             "title": "Fairlie Art Club",
+            "times": "Tue Evening",
+            "location": "Fairlie Village Hall",
+            "organiser": "Marion",
             "link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
+            "community": "yes"
+        },
+        {
+            "title": "Fairlie Community Trust",
+            "secretary": "C McDowell",
+            "community": "yes"
+        },
+        {
+            "title": "Bridge",
+            "community": "yes"
+        },
+        {
+            "title": "Fairlie Yoga",
+            "location": "Fairlie Parish Church",
+            "times": "Mon & Wed AM",
             "community": "yes"
         },
         {
             "title": "Fairlie Badminton Club",
             "link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
+            "location": "Fairlie Village Hall",
+            "times": "Thu Evening",
             "community": "yes"
         },
         {
@@ -32,6 +67,8 @@
         },
         {
             "title": "Fairlie Community Association Ballet Club",
+            "location": "Fairlie Village Hall",
+            "times": "Tue PM",
             "link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
             "community": "yes"
         },
@@ -42,6 +79,7 @@
         },
         {
             "title": "Fairlie Community Sports Club",
+            "notes": "Tennis, Football, etc..",
             "link": "https://www.facebook.com/Fairlie-Community-Sports-Club-559105104196632/",
             "community": "yes"
         },
@@ -51,22 +89,32 @@
             "community": "yes"
         },
         {
-            "title": "Fairlie Gala Committee (Gala in August)",
+            "title": "Fairlie Gala Committee",
+            "notes": "Gala held annually in August",
             "community": "yes"
         },
         {
             "title": "Fairlie Parish Church",
+            "notes": "Church of Scotland",
             "link": "http://www.fairlieparish.co.uk/",
             "community": "yes"
         },
         {
             "title": "Fairlie Primary School",
-            "notes": "inc. Nursery",
+            "link": "http://www.fairlie.northayrshireschools.co.uk/",
+            "community": "yes"
+        },
+        {
+            "title": "Fairlie Nursery School",
+            "notes": "Attached to the Fairlie Primary",
             "link": "http://www.fairlie.northayrshireschools.co.uk/",
             "community": "yes"
         },
         {
             "title": "Fairlie Toddlers",
+            "location": "Fairlie Village Hall",
+            "times": "Wed & Fri AM",
+            "OrganiserOrganiser": "Kimberley",
             "link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
             "community": "yes"
         },
@@ -77,6 +125,9 @@
         },
         {
             "title": "Fairlie Youth Club",
+            "times": "Wed Evening",
+            "location": "Fairlie Village Hall",
+            "organiser": "Heidi Harrison",
             "link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
             "community": "yes"
         },
@@ -92,6 +143,9 @@
         },
         {
             "title": "Pilates",
+            "times": "Wed PM", 
+            "location": "Fairlie Village Hall",
+            "organiser": "Bill Lowrie",
             "link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
             "community": "yes"
         },
@@ -102,6 +156,8 @@
         },
         {
             "title": "Zumba",
+            "location": "Fairlie Village Hall",
+            "times": "Tue & Thu AM",
             "link": "http://www.fairliecommunityassociation.btck.co.uk/GroupsClasses",
             "community": "yes"
         }
