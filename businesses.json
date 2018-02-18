@@ -75,10 +75,6 @@
          "notes": "Plumber"
       },
       {
-         "link" : "http://www.kelvintopset.com/",
-         "title" : "Kelvin Top-Set"
-      },
-      {
          "link" : "http://www.ayrshirescotland.com/ayrshirebusiness/bouncycastles.html",
          "title" : "Kingdom Castles",
          "notes": "Bouncy castles"
@@ -141,14 +137,26 @@
          "title" : "The Catch at Fins Restraunt"
       },
       {
-         "link" : "http://www.villageinnfairlie.co.uk/",
-         "notes" : "Pub and Restraunt",
-         "title" : "The Village Inn"
-      },
-      {
          "link" : "https://www.peelports.com/capabilities/our-investments/hunterston-estate-development",
          "notes" : "Hunterston Port and Resource Centre",
          "title" : "Hunterston PARC"
+      },
+      {
+         "link" : "http://carvaletinglargs.co.uk",
+         "title" : "Largs And Fairlie Valeting Centre"
+      }, 
+      {
+         "link" : "https://www.beachbothy.com/the-apartment",
+         "title" : "The Beach Bothy",
+         "notes" : "Holiday Appartment"
+      },
+      {
+         "title" : "Arranview Self Catering",
+         "notes" : "Holiday Appartment"
+      },
+      {
+         "title" : "The Beach Pad",
+         "notes" : "Self Catering Flat, Holiday Let"
       }
    ]
 }
