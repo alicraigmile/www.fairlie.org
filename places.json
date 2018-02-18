@@ -80,7 +80,7 @@
         {
             "title": "Kaim Hill",
             "link": "http://www.clydemuirshiel.co.uk/things-to-do/walking/routes/kaim-hill/",
-            "notes": "Walk",
+            "notes": "Walk - 387m",
             "walk": "yes",
             "interesting": "yes"
         },
@@ -107,6 +107,10 @@
             "interesting": "yes",
             "historical": "yes"
         },
+				{
+						"title": "Fairlie Industrial Estate",
+						"interesting": "yes"
+				},
         {
             "title": "Fairlie Pier Railway Station",
             "link": "http://www.organicgrowersfairlie.co.uk/Fairlie_Pier_Station.php",
@@ -115,9 +119,13 @@
         },
         {
             "title": "Fairlie Pier",
+            "link": "http://www.fairliequay.co.uk/",
+            "interesting": "yes"
+        },
+        {
+            "title": "Fairlie Pier",
 						"notes": "Site of",
             "link": "http://www.organicgrowersfairlie.co.uk/Fairlie_Pier_Station.php",
-            "notes": "Site of",
             "historical": "yes"
         },
         {
