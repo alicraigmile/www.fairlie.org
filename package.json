@@ -2,13 +2,21 @@
   "name": "www.fairlie.org",
   "version": "2.6.0",
   "description": "fairlie.org website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node ./bin/fairlie-dot-org",
-    "build": "mkdir -p build && git archive --format=zip HEAD > build/www.fairlie.org-$npm_package_version.zip",
+    "deploy:prod": "npm run test && npm run version:patch && npm run push && npm run launch",
+    "clean": "rm -r build",
+    "compile": "npm run compile:elasticbeanstalk",
+    "compile:elasticbeanstalk": "mkdir -p build && git archive --format=zip HEAD > build/www.fairlie.org-$npm_package_version.zip",
+    "pretest": "npm run clean && npm run compile",
     "test": "mocha test/",
-    "preversion": "npm test",
-    "postversion": "git push && git push --tags"
+    "version:patch": "npm version patch",
+    "push": "npm run push:git && npm run push:elasticbeanstalk",
+    "push:git": "git push --tags origin HEAD:master",
+    "push:heroku": "git push heroku master",
+    "push:elasticbeanstalk": "echo 'build/www.fairlie.org-$npm_package_version.zip' && echo 'push to AWS not implemented'",
+    "launch": "open http://www.fairlie.org",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
