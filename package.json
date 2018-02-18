@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "deploy:prod": "npm run test && npm run version:patch && npm run push && npm run launch",
-    "clean": "rm -r build",
+    "clean": "rm -rf build",
     "compile": "npm run compile:elasticbeanstalk",
     "compile:elasticbeanstalk": "mkdir -p build && git archive --format=zip HEAD > build/www.fairlie.org-$npm_package_version.zip",
     "pretest": "npm run clean && npm run compile",
